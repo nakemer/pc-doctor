@@ -1,0 +1,15 @@
+{
+  "name": "pc-doctor",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "PC Doctor — 电脑疑难杂症诊断 + 聊天咨询 agent 预设。像耐心的门诊医生一样问诊、定位、开方，还能现场检测你的真实系统（macOS/Windows）。",
+  "author": "nakemer <nakemer@users.noreply.github.com>",
+  "license": "MIT",
+  "keywords": ["dsh-plugin", "agent-preset", "pc-doctor", "diagnosis", "tech-support", "电脑诊断", "疑难杂症"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nakemer/pc-doctor.git"
+  },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}
